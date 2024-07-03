@@ -1,0 +1,47 @@
+.listTask {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 46rem;
+    min-height: 17.94rem;
+
+}
+
+.info {
+    display: flex;
+    width: 46rem;
+    justify-content: space-between;
+    height: 1.1875rem;
+    font-weight: bold;
+}
+
+.info .createdTasks {
+    display: flex;
+    font-weight: bold;
+    color: var(--blue-primary);
+    gap: 0.5rem;
+}
+
+.info .doneTasks {
+    display: flex;
+    font-weight: bold;
+    color: var(--purple-primary);
+    gap: 0.5rem;
+}
+
+.badge {
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1.5625rem;
+    max-width: 3.25rem;
+    height: 1.1875rem;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    border: 0;
+    border-radius: 8px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+
+}

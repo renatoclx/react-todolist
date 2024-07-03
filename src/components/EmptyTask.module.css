@@ -1,0 +1,23 @@
+.tasks {
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 46rem;
+    min-height: 15.25rem;
+    border-top: 1px solid var(--gray-400);
+    display: flex;
+    color: var(--gray-400);
+}
+
+.tasks strong {
+    margin-top: 1rem;
+    color: var(--gray-300);
+}
+
+.tasks span {
+    font-size: 1.2rem;
+    color: var(--gray-300);
+}
